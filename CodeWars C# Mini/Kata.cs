@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.Diagnostics.Metrics;
 using System.Linq;
+using System.Numerics;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Formats.Asn1.AsnWriter;
 
-namespace CodeWars_C__Mini
+namespace CodeWars_C_Mini
 {
     //Ctrl+K+C Comment Out Multiple Lines
     //Ctrl+K+U Uncomment Multiple Lines
@@ -164,13 +167,152 @@ namespace CodeWars_C__Mini
 
     #region C# Kata 9 
     //Given a set of numbers, return the additive inverse of each.Each positive becomes negatives, and the negatives become positives.
-    public static class ArraysInversion
-    {
-        public static int[] InvertValues(int[] input)
-        {
-           
-
-        }
-    }
+    //public class Kata
+    //{
+    //    public static int[] InvertValues(int[] input)
+    //    {
+    //        return input.Select(n => -n).ToArray();
+    //    }
+    //}
     #endregion
+
+    #region C# Kata 10 
+    //If you can't sleep, just count sheep!!
+
+    //Task:
+    //Given a non-negative integer, 3 for example, return a string with a murmur: "1 sheep...2 sheep...3 sheep...". Input will
+    //always be valid, i.e.no negative integers.
+    //public static class Kata
+    //{
+    //    public static string CountSheep(int n)
+    //    {
+    //        string result = "";
+    //        for (int i = 1; i <= n; i++)
+    //        {
+    //            result += $"{i} sheep...";
+    //        }
+    //        return result;
+
+    //    }
+    //}
+    #endregion
+
+    #region C# Kata 11
+    //We need a function that can transform a string into a number.What ways of achieving this do you know?
+
+    //Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral
+    //number.
+
+    //public class Kata
+    //{
+    //    public static int StringToNumber(String str)
+    //    {
+    //        //TODO: Convert str into a number
+    //        int result = Convert.ToInt32(str);
+    //        return result;
+    //    }
+    //}
+    #endregion
+
+    #region C# Kata 12 
+    //Create a function with two arguments that will return an array of the first n multiples of x.
+
+    //Assume both the given number and the number of times to count will be positive numbers greater than 0.
+
+    //Return the results as an array or list(depending on language).
+    //public static class Kata
+    //{
+    //    public static int[] CountBy(int x, int n)
+    //    {
+    //        int[] z = new int[n-1];
+
+    //        return Enumerable.Range(1, n).Select(i => i * x).ToArray();
+    //    }
+    //}
+    #endregion
+
+    #region C# Kata 13
+    //Complete the function so that it finds the average of the three scores passed to it and returns the letter value 
+    //associated with that grade.
+    //Numerical Score Letter Grade
+    //90 <= score <= 100	'A'
+    //80 <= score< 90	'B'
+    //70 <= score< 80	'C'
+    //60 <= score< 70	'D'
+    //0 <= score< 60	'F'
+
+    //public class Kata
+    //{
+    //    public static char GetGrade(int s1, int s2, int s3)
+    //    {
+    //        //Your code goes here...
+    //        var avg = (s1 + s2 + s3)/3;
+
+    //        switch (avg)
+    //        {
+    //            case <= 0:
+    //                return '0';
+
+    //            case > 0 and <= 60:
+    //                Console.WriteLine("0-60");
+    //                break;
+
+    //            case > 60 and <= 70:
+    //                Console.WriteLine("61-70");
+    //                break;
+
+    //            case > 70 and <= 80:
+    //                Console.WriteLine("71-80");
+    //                break;
+
+    //            case > 80 and <= 90:
+    //                Console.WriteLine("81-90");
+    //                break;
+
+    //            case > 90 and <= 100:
+    //                avg = "91-99");
+    //                break;
+
+    //            default:
+    //                break;
+    //        }
+    //        return Convert.ToChar(avg);
+    //    }
+    //}
+    #endregion
+
+    #region C# Kata 14
+    /*
+        Rock Paper Scissors
+        Let's play! You have to return which player won! In case of a draw return Draw!.
+
+        Examples(Input1, Input2 --> Output) :
+
+        "scissors", "paper" --> "Player 1 won!"
+        "scissors", "rock" --> "Player 2 won!"
+        "paper", "paper" --> "Draw!"
+    
+     */
+    //public class Kata
+    //{
+    //    public static string Rps(string p1, string p2)
+    //    {
+    //        if (p1 == "rock" && p2 == "scissors" || p1 == "scissors" && p2 == "paper" || p1 == "paper" && p2 == "rock")
+    //        {
+    //            return "Player 1 won!";
+    //        }
+    //        else if (p1 == p2)
+    //        {
+    //            return "Draw!";
+    //        }
+    //        else
+    //        {
+    //            return "Player 2 won!";
+    //        }
+
+    //    }
+    //}
+    #endregion
+
+
 }

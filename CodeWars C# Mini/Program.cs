@@ -1,5 +1,4 @@
-﻿using CodeWars_C__Mini;
-using CodeWars_C_Mini;
+﻿using CodeWars_C_Mini;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -86,8 +85,68 @@ namespace CodeWars_C_Mini
             //invert([1, 2, 3, 4, 5]) == [-1, -2, -3, -4, -5]
             //invert([1, -2, 3, -4, 5]) == [-1, 2, -3, 4, -5]
             //invert([]) == []
-            int[] integers = new int[] { 1, 2, 3, 4, 5 };
-            int[] integer2 = new int[] { 1, -2, 3, -4, 5 };
+            //int[] integers = new int[] { 1, 2, 3, 4, 5 };
+            //int[] integer2 = new int[] { 1, -2, 3, -4, 5 };
+
+            //Console.WriteLine("First Array: [ 1, 2, 3, 4, 5] inverted below.");
+            //Array.ForEach(Kata.InvertValues(integers), Console.WriteLine);
+            //Console.WriteLine("Second Array: [ 1, -2, 3, -4, 5] inverted below.");
+            //Array.ForEach(Kata.InvertValues(integer2), Console.WriteLine);            
+            #endregion
+
+            #region CodeWars C# Kata #10 Results 
+            //Console.Write("Enter a Positive Number: ");
+            //var enteredNum = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(Kata.CountSheep(enteredNum));
+            #endregion
+
+            #region CodeWars C# Kata #11 Results 
+            //Console.Write("Enter a number: ");
+            //string enteredNum = Console.ReadLine();
+            //Console.WriteLine(enteredNum.GetType());
+            //Console.WriteLine(Kata.StringToNumber(enteredNum).GetType());
+            #endregion
+
+            #region CodeWars C# Kata #12 Results 
+            //Console.Write("Enter your first number: ");
+            //int firstNum = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Enter your second number: ");
+            //int secNum = Convert.ToInt32(Console.ReadLine());
+
+            //Array.ForEach(Kata.CountBy(firstNum, secNum), Console.WriteLine);
+            #endregion
+
+            #region CodeWars C# Kata 13 Results 
+            //Console.Write("Enter a number: ");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Enter another number: ");
+            //int num2 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Enter another number: ");
+            //int num3 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine($"Avg of Grades: {Kata.GetGrade(num1,num2,num3)}");
+            #endregion
+
+            #region CodeWars C# Kata 14 Results
+            //Console.WriteLine("Welcome to Rock, Paper, Scissors!\n");
+            //Console.WriteLine("Player 1's Turn\n");
+
+            //Console.Write("Player 1, enter rock paper or scissors: ");
+            //string p1 = Console.ReadLine().ToLower();
+
+            //Console.Clear();
+
+            //Console.WriteLine("Player 2's Turn\n");
+
+            //Console.Write("Player 2, enter rock paper or scissors: ");
+            //string p2 = Console.ReadLine().ToLower();
+
+            //Console.Clear();
+
+            //Console.WriteLine(Kata.Rps(p1,p2));
 
             #endregion
         }
