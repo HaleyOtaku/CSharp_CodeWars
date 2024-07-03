@@ -149,6 +149,21 @@ namespace CodeWars_C_Mini
             //Console.WriteLine(Kata.Rps(p1,p2));
 
             #endregion
+
+            #region CodeWars C# Kata 15 Results
+            //Console.WriteLine("Welcome to the Array Guessing Game!");
+
+            //object[] numbers = { 1, 2, 3, 4, 5 };
+            //Console.Write("Enter a numerical guess to see if it is in the array: ");
+
+            //int target = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine(Kata.Check(numbers,target));
+            #endregion
+
+            #region C# Kata 16 Results
+
+            #endregion
         }
     }
 }

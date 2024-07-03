@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -314,5 +315,25 @@ namespace CodeWars_C_Mini
     //}
     #endregion
 
+    #region C# Kata 15
+    //You will be given an array a and a value x.All you need to do is check whether the provided array contains the value.
 
+    //Array can contain numbers or strings.X can be either.
+
+    //Return true if the array contains the value, false if not.
+
+    //public class Kata
+    //{
+    //    public static bool Check(object[] a, object x)
+    //    {
+    //        bool containsTarget = a.Contains(x);
+    //        return containsTarget;
+
+    //    }
+    //}
+    #endregion
+
+    #region C# Kata 16
+
+    #endregion
 }
