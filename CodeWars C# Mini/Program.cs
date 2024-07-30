@@ -186,6 +186,24 @@ namespace CodeWars_C_Mini
             #endregion
 
             #region C# Kata 18 Results 
+            //Write a function to convert a name into initials.This kata strictly takes two words with one space in between them.
+
+            //The output should be two capital letters with a dot separating them.
+
+            //It should look like this:
+
+            //Sam Harris => S.H
+
+            //patrick feeney => P.F
+
+            //Console.Write("Enter your first and last name: ");
+            //string name = Console.ReadLine();
+            //Console.WriteLine(Kata.AbbrevName(name));
+
+            #endregion
+
+            #region C# Kata 19 Results 
+
 
 
             #endregion
