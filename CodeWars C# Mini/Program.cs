@@ -1,6 +1,7 @@
 ﻿using CodeWars_C_Mini;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -162,6 +163,30 @@ namespace CodeWars_C_Mini
             #endregion
 
             #region C# Kata 16 Results
+            ////Make a simple function called greet that returns the most-famous "hello world!".
+            //Console.WriteLine(Kata.Greet());
+            #endregion
+
+            #region C# Kata 17 Results 
+            //Write function bmi that calculates body mass index(bmi = weight / height2).
+
+            //if bmi <= 18.5 return "Underweight"
+
+            //if bmi <= 25.0 return "Normal"
+
+            //if bmi <= 30.0 return "Overweight"
+
+            //if bmi > 30 return "Obese"
+            //Console.WriteLine("Welcome to the BMI Calculator!\n");
+            //Console.Write("Enter your weight (kg): ");
+            //double weight = double.Parse(Console.ReadLine());
+            //Console.Write("Enter your height (m): ");
+            //double height = double.Parse(Console.ReadLine());
+            //Console.WriteLine(Kata.Bmi(weight,height));
+            #endregion
+
+            #region C# Kata 18 Results 
+
 
             #endregion
         }
